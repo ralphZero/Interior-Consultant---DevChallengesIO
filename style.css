@@ -152,6 +152,10 @@ footer{
         position: relative;
     }
 
+    #side-img-frame{
+        display: none;
+    }
+
     footer{
         display: block;
         font-size: 0.6em;
@@ -167,6 +171,7 @@ footer{
         font-weight: normal;
         font-size: 36px;
         line-height: 46px;
+        animation: fadeIn ease 2s;
     }
 
     .side div h3{
@@ -176,6 +181,7 @@ footer{
         font-size: 14px;
         line-height: 17px;
         width: 60%;
+        animation: fadeIn 3s;
     }
 
     .readmore{
@@ -187,6 +193,7 @@ footer{
         vertical-align: text-top;
         padding-top: 15px; 
         padding-bottom: 15px;
+        animation: slideInFromLeft 2s;
     }
     .side-img{
         width: 100%;
@@ -229,8 +236,10 @@ footer{
         right: 5%;
         padding: 3%;
         width: 75%;
-        background-color: #181719;
+        background-color: #181719de;
+        filter: blur(25);
         box-shadow: 0 2px 15px #000000;
+        animation: slideInFromLeft ease-in-out 1s;
     }
 }
 
