@@ -17,7 +17,7 @@
   <nav>
     <div class="nav-title">This Interior</div>
     <div class="nav-list">
-      <button class="nav-toggle" type="button">
+      <button id="nav-toggle" class="nav-toggle" type="button">
         <span class="material-icons">menu</span>
       </button>
       <ul class="nav-list-content">
@@ -28,6 +28,48 @@
       </ul>
     </div>
   </nav>
+  <div id="nav-collapsed" class="nav-list-collapsed hidden">
+    <nav class="nav-collapsed-nav">
+      <button id="nav-collapse-toggle" class="nav-collapse-toggle" type="button">
+        <span class="material-icons">close</span>
+      </button>
+    </nav>
+    
+    <ul class="nav-list-collapsed-content">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Collection</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="side">
+      <div>
+        <h1>Modern interior</h1>
+        <h3>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</h3>
+        <p class="readmore">Read more <span class="material-icons">trending_flat</span></p>
+      </div>
+    </div>
+    <div class="side">
+      <div class="side-img-container">
+        <img class="side-img" src="empty_room.png" alt="image"/>
+        <img class="side-img" id=side-img-frame src="frame.png" alt="image"/>
+      </div>
+      <div class="card">
+        <div class="side-person">
+          <img class="side-img-avatar" src="photo2.png" alt="image"/>
+          <div>
+            <p class="side-name">Alixa Webber</p>
+            <p class="side-role">Interior designer</p>
+          </div>
+        </div>
+        <p class="side-credits">Designed in 2020 by Alixa Webber</p>
+      </div>
+    </div>
+  </div>
+  <footer>Ralph Placide @ DevChallenges.io</footer>
+
+  <script src="effects.js"></script>
 </body>
 
 </html>
