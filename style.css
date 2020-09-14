@@ -16,12 +16,10 @@
     }
     70%{
         filter: opacity(0);
-        filter: drop-shadow(1px 1px 5px #383838ee);
     }
     100% {
         transform: translateY(0);
         filter: opacity(100);
-        filter: drop-shadow(1px 1px 5px #383838ee);
     }
 }
 
@@ -288,7 +286,11 @@ footer{
 
     #side-img-frame{
         animation: slideInFromTop ease-in-out 3s;
-        filter: drop-shadow(1px 1px 5px #383838ee);
+        filter: drop-shadow(2px 2px 3px #383838d8);
+        transition: transform .5s, filter 1.1s ease-in-out;
+    }
+    #side-img-frame:hover{
+        transform: scale(1.08);
     }
 
     .side-img-avatar{
